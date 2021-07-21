@@ -35,6 +35,7 @@ data1 = {
 'loginType'	:''
 }
 r1 = requests.request("post", url1, json=data1, headers=header1)
-r1 = json.loads(r1.text)
-uuid = r1['id']
-print(uuid)
+print(r1.text)
+# r1 = json.loads(r1.text)
+# uuid = r1['id']
+# print(uuid)
