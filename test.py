@@ -37,7 +37,7 @@ data1 = {
 response = requests.request("post", url1, json=data1, headers=header1)
 print(response.encoding)
 response.encoding = 'utf-8'
-print(response.json())
+print(response)
 # print(r1.text)
 # r1 = json.loads(r1.text)
 # uuid = r1['id']
