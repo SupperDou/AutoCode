@@ -23,5 +23,5 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
 #           SCKEY: ${{ secrets.SCKEY }}
         run: |
-          python3 healthAuto.py ${USER} ${PASSWORD} 
+          python3 test.py ${USER} ${PASSWORD} 
         #  ${SCKEY}
