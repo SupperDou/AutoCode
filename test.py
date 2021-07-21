@@ -16,6 +16,7 @@ header1 = {
 'Proxy-Authorization': 'Basic LnN2QDMyODQyMjc7Y24uOjYrL285ZThhOUpJME8vK0dNNXJIM284di9FZXFVVHUvalpkSUF0N3o5MGs9',
 'Connection': 'keep-alive',
 'Referer': 'https://www.vikacg.com/',
+'Cookie': '_ga=GA1.2.1399209464.1588809352; _ga_6BRRXJ5S7F=GS1.1.1626839893.28.1.1626840144.0; _ga_801TFF6N89=GS1.1.1626839893.28.1.1626840144.0; wpcc_variant_f43f0782b8316b4e5ae70619d05a28eb=zh-hans; Hm_lvt_49cc02c62fdb09c867c9340508d5af34=1600393511,1600439469,1601120773,1601258134; __gads=ID=852b8adc87f3efd2:T=1596793142:S=ALNI_MaOkhTCpfeB5K2yFSrUesVkag-wOg; _ga_0EBQJT2CGX=GS1.1.1626839893.4.1.1626840144.0; allow_primary=true; _gid=GA1.2.915180452.1626779313; wpdiscuz_hide_bubble_hint=1; gg_info=1626840136'
 'Cache-Control': 'max-age=0',
 'TE': 'Trailers'
 
