@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  workflow_dispatch:
+
+#   schedule:
+#     - cron: '0 1,23 * * *'
+
+jobs:
+  ClockIn:
+    runs-on: ubuntu-latest
+#     if: github.event.repository.owner.id == github.event.sender.id
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Install python3
+        run: |
+          sudo -E apt-get -yqq update
+          sudo -E apt-get -yqq install python3
+      - name: Clock In
+        env:
+          USER: ${{ secrets.USER }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+#           SCKEY: ${{ secrets.SCKEY }}
+        run: |
+          python3 healthAuto.py ${USER} ${PASSWORD} 
+        #  ${SCKEY}
