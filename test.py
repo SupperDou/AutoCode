@@ -139,9 +139,9 @@ while (num<2):
         print("取关")
     else:
         print('错误')
-        num+=1
-    if wrong==3：
-        break
+        wrong+=1
+    if wrong==4:
+        break;
     print(num)
     time.sleep(5)
 
