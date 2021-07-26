@@ -134,11 +134,12 @@ while (num<2):
     wrong+=1
     if response4 == 'true':
         print('关注')
-        num+=1
+       
     elif response4 == 'false':
         print("取关")
     else:
         print('错误')
+        num+=1
     if wrong==3
         break
     print(num)
@@ -150,4 +151,4 @@ else:
     string='关注错误'
 
 print(response1+string)
-requests.post(f'http://sc.ftqq.com/{SCKEY}.send', {"text": response1+string, "desp": '不会变魔术的安娜'})
+# requests.post(f'http://sc.ftqq.com/{SCKEY}.send', {"text": response1+string, "desp": '不会变魔术的安娜'})
