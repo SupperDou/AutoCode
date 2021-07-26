@@ -140,7 +140,7 @@ while (num<2):
     else:
         print('错误')
         num+=1
-    if wrong==3
+    if wrong==3：
         break
     print(num)
     time.sleep(5)
