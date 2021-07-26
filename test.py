@@ -102,6 +102,7 @@ response1=json.loads(response1.text)
 
 
 num=0
+wrong=0
 while (num<2):
 
     id = random.randint(20008, 21008)
@@ -130,6 +131,7 @@ while (num<2):
     response4 = requests.post(url4, data=data4, headers=header3)
     # response4=json.loads(response4.text)
     response4 = response4.text
+    wrong+=1
     if response4 == 'true':
         print('关注')
         num+=1
@@ -137,6 +139,7 @@ while (num<2):
         print("取关")
     else:
         print('错误')
+    if wrong==3
         break
     print(num)
     time.sleep(5)
