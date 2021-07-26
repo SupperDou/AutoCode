@@ -21,7 +21,6 @@ jobs:
         env:
           USER: ${{ secrets.USER }}
           PASSWORD: ${{ secrets.PASSWORD }}
-#           SCKEY: ${{ secrets.SCKEY }}
+          SCKEY: ${{ secrets.SCKEY }}
         run: |
-          python3 test.py ${USER} ${PASSWORD} 
-        #  ${SCKEY}
+          python3 test.py ${USER} ${PASSWORD} ${SCKEY}
