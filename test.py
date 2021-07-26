@@ -145,10 +145,10 @@ while (num<2):
     print(num)
     time.sleep(5)
 
-if num==2:
+if wrong!=4:
     string='关注完成'
 else:
     string='关注错误'
 
 print(response1+string)
-# requests.post(f'http://sc.ftqq.com/{SCKEY}.send', {"text": response1+string, "desp": '不会变魔术的安娜'})
+requests.post(f'http://sc.ftqq.com/{SCKEY}.send', {"text": response1+string, "desp": '不会变魔术的安娜'})
