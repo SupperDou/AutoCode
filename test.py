@@ -133,7 +133,7 @@ while (num<2):
     response4 = response4.text
     if response4 == 'true':
         print('关注')
-       
+        num+=1
     elif response4 == 'false':
         print("取关")
     else:
@@ -141,8 +141,8 @@ while (num<2):
         wrong+=1
     if wrong==4:
         break;
-    print(num)
-    time.sleep(5)
+#     print(num)
+    time.sleep(3)
 
 if wrong!=4:
     string='关注完成'
