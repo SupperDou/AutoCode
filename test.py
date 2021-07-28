@@ -94,7 +94,10 @@ data3={
 }
 
 url3 = "https://www.vikacg.xyz/wp-json/b2/v1/userMission"
-response1=requests.post(url3,data=data3,headers=header3)
+
+for i in range(3):
+    response1=requests.post(url3,data=data3,headers=header3)
+    time.sleep(1)
 #
 response1=json.loads(response1.text)
 # # # # print(response1)
