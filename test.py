@@ -97,7 +97,7 @@ url3 = "https://www.vikacg.xyz/wp-json/b2/v1/userMission"
 
 for i in range(3):
     response1=requests.post(url3,data=data3,headers=header3)
-    time.sleep(1)
+    time.sleep(5)
 #
 response1=json.loads(response1.text)
 # # # # print(response1)
