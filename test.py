@@ -45,6 +45,7 @@ response=vex.post(url1,data1,headers=header1)
 # cookies=response.cookies.get_text()
 cook = response.cookies
 print(cook)
+print(requests.utils.dict_from_cookiejar(cook))
 # r1=response.content.decode("utf-8")
 # print('响应{}'.format(response))
 token=requests.utils.dict_from_cookiejar(vex.cookies)['b2_token']
