@@ -6,7 +6,7 @@ PASSWORD=sys.argv[2]
 SCKEY=sys.argv[3]
 url1 ="https://www.vikacg.com/wp-json/jwt-auth/v1/token"
 header1 = {
-'Host': 'www.vikacg.xyz',
+'Host': 'www.vikacg.com',
 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
 'Accept': 'application/json, text/plain, */*',
 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
@@ -52,7 +52,7 @@ token=requests.utils.dict_from_cookiejar(vex.cookies)['b2_token']
 
 
 header2 ={
-'Host': 'www.vikacg.xyz',
+'Host': 'www.vikacg.com',
 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
 'Accept': 'application/json, text/plain, */*',
 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
