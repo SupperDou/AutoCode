@@ -43,9 +43,9 @@ response=vex.post(url1,data1,headers=header1)
 # response.content.decode("utf-8")
 # r1 = json.loads(response.text)
 # cookies=response.cookies.get_text()
-cook = response.cookies
-print(cook)
-print(requests.utils.dict_from_cookiejar(cook))
+# cook = response.cookies
+# print(cook)
+# print(requests.utils.dict_from_cookiejar(cook))
 # r1=response.content.decode("utf-8")
 # print('响应{}'.format(response))
 token=requests.utils.dict_from_cookiejar(vex.cookies)['b2_token']
@@ -111,7 +111,7 @@ num=0
 wrong=0
 while (num<2):
 
-    id = random.randint(20008, 21008)
+    id = random.randint(1008, 21008)
 
     header4 = {
         'Host': 'www.vikacg.com',
